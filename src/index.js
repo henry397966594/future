@@ -39,7 +39,6 @@ class Clock extends React.Component {
                <button onClick={this.handleClick}>
                {this.state.isToggleOn?'hello herny':'hello meixiang'}
                </button>
-                你是谁
             </div>
         )
     }
