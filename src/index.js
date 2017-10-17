@@ -30,8 +30,8 @@ class Clock extends React.Component {
             isToggleOn: !prevet.isToggleOn
         }))
     }
-   
-    render() {
+
+    render() { //如果没有初始化this,可以在回调函数中使用箭头函数
         return (
             <div>
                 <h1 className="">Hello World!!</h1>
@@ -42,16 +42,17 @@ class Clock extends React.Component {
             </div>
         )
     }
-}
-
+// }
 
 
     ReactDOM.render(
+
         <div>
         <Clock />
         <Clock />
         <Clock />
         </div>,
+       
         document.getElementById('root')
     );
 
