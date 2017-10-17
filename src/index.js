@@ -42,7 +42,7 @@ class Clock extends React.Component {
             </div>
         )
     }
-// }
+}
 
 
     ReactDOM.render(
